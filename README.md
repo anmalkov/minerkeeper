@@ -10,7 +10,7 @@ Please read the [documentation](https://github.com/anmalkov/minerkeeper/blob/mas
 ### Version history
 
 v1.0.1
-* Add monitoring for Ewbf miner.
+* Add monitoring for Ewbf ZCash (ZEC) cuda miner
 * Send an email message in case of restart of the miner
 
 ### Links to supported miners:
