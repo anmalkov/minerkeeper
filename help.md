@@ -1,6 +1,6 @@
 # Requirements
 
-Microsoft .NET Framework 4.6 should be installed on the PC - [download](https://www.microsoft.com/en-us/download/details.aspx?id=49981).
+Microsoft .NET Framework 4.6.1 should be installed on the PC - [download](https://www.microsoft.com/en-us/download/details.aspx?id=49981).
 
 The miner should be run with API enabled option:
 * For **Ewbf ZCash (ZEC) cuda miner** include *"--api"* option to your *.bat file
