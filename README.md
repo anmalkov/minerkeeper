@@ -4,6 +4,7 @@ It is a console application that constantly monitors your miner and restarts the
 MinerKeeper, if you want, can also inform you about the restart of the miner by sending an e-mail message to your e-mail address.
 
 The latest version: v1.0.1 [download](https://github.com/anmalkov/minerkeeper/releases/download/MinerKeeper.1.0.1.zip)
+
 Please read the [documentation](https://github.com/anmalkov/minerkeeper/releases/download/MinerKeeper.1.0.1.zip) after the download.
 
 ### Version history
