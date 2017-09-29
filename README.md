@@ -1,3 +1,4 @@
+# MinerKeeper
 MinerKeeper keeps your miner running and notifies you
 
 It is a console application that constantly monitors your miner and restarts the miner in case he crashed or stopped mining due to any internal errors.
