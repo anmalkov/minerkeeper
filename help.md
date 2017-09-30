@@ -5,6 +5,15 @@ Microsoft .NET Framework 4.6.1 should be installed on the PC - [download](https:
 The miner should be run with API enabled option:
 * For **Ewbf ZCash (ZEC) cuda miner** include *"--api"* option to your *.bat file
 
+# Installation
+
+* Download the [latest version](https://github.com/anmalkov/minerkeeper/releases/download/v1.0.1/MinerKeeper.1.0.1.zip) of the MinerKeeper on GitHub
+* Extract the content of the archive to any folder on your drive (e.g. C:\MinerKeeper)
+* Open that folder in the windows explorer
+* Open config.json file for editiong in your vaforite text editor (or Notepad if you want)
+* Set the configuration option (see the next chapter)
+* Run MinerKeeper.exe - it will run your miner automatically
+
 # Configuration
 
 You can find all of the configuration options inside the *config.json* file.
