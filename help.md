@@ -10,7 +10,7 @@ The miner should be run with API enabled option:
 * Download the [latest version](https://github.com/anmalkov/minerkeeper/releases/download/v1.0.1/MinerKeeper.1.0.1.zip) of the MinerKeeper on GitHub
 * Extract the content of the archive to any folder on your drive (e.g. C:\MinerKeeper)
 * Open that folder in the windows explorer
-* Open config.json file for editiong in your vaforite text editor (or Notepad if you want)
+* Open config.json file for editiong in your favorite text editor (or Notepad if you want)
 * Set the configuration option (see the next chapter)
 * Run MinerKeeper.exe - it will run your miner automatically
 
