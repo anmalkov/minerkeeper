@@ -12,7 +12,7 @@ Please read the [documentation](https://github.com/anmalkov/minerkeeper/blob/mas
 
 v1.0.3
 * It is possible to specify a delay that MinerKeeper will apply before restart a miner
-* *apiUrl* now can contain only the host name, e.g. 192.168.0.1:42000 (without '/getstat' at the end)
+* *apiUrl* can contain only the host name now, e.g. 192.168.0.1:42000 (without '/getstat' at the end)
 
 v1.0.2
 * Added the ability to automatically restart a miner every X hours
