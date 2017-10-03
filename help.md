@@ -7,7 +7,7 @@ The miner should be run with API enabled option:
 
 # Installation
 
-* Download the [latest version](https://github.com/anmalkov/minerkeeper/releases/download/v1.0.2/MinerKeeper.1.0.2.zip) of the MinerKeeper on GitHub
+* Download the [latest version](https://github.com/anmalkov/minerkeeper/releases/download/v1.0.3/MinerKeeper.1.0.3.zip) of the MinerKeeper on GitHub
 * Extract the content of the archive to any folder on your drive (e.g. C:\MinerKeeper)
 * Open that folder in the windows explorer
 * Open config.json file for editing in your favorite text editor (or Notepad if you want)
