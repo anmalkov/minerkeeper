@@ -43,3 +43,8 @@ username | The username to access the SMTP server<br />For example: "yourGmailAc
 password | The password to access the SMTP server
 fromEmalAddress | The email address that MinerKeeper will use to send the email messages from
 toEmalAddress | The email address that MinerKeeper will use to send the email messages to
+
+### Support the project
+
+If you want to support the project you can use the next addresses for donation:
+* ZEC t1PtBcUsaE1do2s97Atp89QCJAWbjfCKxym
