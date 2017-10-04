@@ -25,3 +25,8 @@ v1.0.1
 ### Links to supported miners:
 
 * Ewbf ZCash (ZEC) cuda miner v0.3.4b - [information](https://github.com/nanopool/ewbf-miner) | [download](https://github.com/nanopool/ewbf-miner/releases/download/v0.3.4b/Zec.miner.0.3.4b.zip)
+
+### Support the project
+
+If you want to support the project you can use the next addresses for donation:
+* ZEC t1PtBcUsaE1do2s97Atp89QCJAWbjfCKxym
