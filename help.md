@@ -60,10 +60,10 @@ toEmalAddress | The email address that MinerKeeper will use to send the email me
 
 # Use Telegram for notifications
 
-* Add a bot to Telegram (just start chat): https://t.me/MinerKeeperBot, this bot will send you notifications from MinerKeeper installed on your rig.
-* Use command '/start' for the MinerKeeperBot to get your unique chat ID
-* Put this number in '*telegram*' -> '*chatId*' in config.json
-* Change the value of '*telegram*' -> '*sendNotifications*' in config.json file to *true*.
+* Add a bot to Telegram (just start chat): https://t.me/MinerKeeperBot, this bot will send you notifications from MinerKeeper installed on your rig
+* Use command '*/start*' for the **MinerKeeperBot** to get your unique chat ID
+* Put this number in '*telegram*' -> '*chatId*' in config.json file
+* Change the value of '*telegram*' -> '*sendNotifications*' in config.json file to *true*
 * Run MinerKeeper.exe - you should receive a notification that MinerKeeper has been started 
 
 ### Support the project
