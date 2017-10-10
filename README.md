@@ -8,7 +8,9 @@ The latest version: v1.0.6 - [download](https://github.com/anmalkov/minerkeeper/
 
 Please read the [documentation](https://github.com/anmalkov/minerkeeper/blob/master/help.md) after the download.
 
-### Version history
+[[русская версия]](https://github.com/anmalkov/minerkeeper/blob/master/README_ru.md)
+
+## Version history
 
 v1.0.6
 * Send a notification with a summary report about your rig every X hours (including all data about GPUs)
@@ -34,11 +36,11 @@ v1.0.1
 * Added monitoring for Ewbf ZCash (ZEC) cuda miner
 * Send an email message in case of restart of the miner
 
-### Links to supported miners:
+## Links to supported miners:
 
 * Ewbf ZCash (ZEC) cuda miner v0.3.4b - [information](https://github.com/nanopool/ewbf-miner) | [download](https://github.com/nanopool/ewbf-miner/releases/download/v0.3.4b/Zec.miner.0.3.4b.zip)
 
-### Support the project
+## Support the project
 
 If you want to support the project you can use the next addresses for donation:
 * ZEC t1PtBcUsaE1do2s97Atp89QCJAWbjfCKxym
