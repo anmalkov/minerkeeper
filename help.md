@@ -7,7 +7,7 @@ The miner should be run with API enabled option:
 
 # Installation
 
-* Download the [latest version](https://github.com/anmalkov/minerkeeper/releases/download/v1.0.4/MinerKeeper.1.0.4.zip) of the MinerKeeper on GitHub
+* Download the [latest version](https://github.com/anmalkov/minerkeeper/releases/download/v1.0.6/MinerKeeper.1.0.6.zip) of the MinerKeeper on GitHub
 * Extract the content of the archive to any folder on your drive (e.g. C:\MinerKeeper)
 * Open that folder in the windows explorer
 * Open config.json file for editing in your favorite text editor (or Notepad if you want)
@@ -30,6 +30,7 @@ restartMinerEachHours | The amount of hours to automatically restart a miner (e.
 delayBetweenStopAndStartInSeconds | The delay in seconds that MinerKeeper will use for restart a miner to allow cards to reset
 apiUrl | The ULR to miner API host, if blank then MinerKeeper will use the default URL address for selected miner (e.g. '127.0.0.1:42000' for Ewbf ZCash (ZEC) cuda miner)
 language | The language for MinerKeeper and for all notifications<br />Supported languages:<br />"english" - please use [MinerKeeperBot](https://t.me/MinerKeeperBot) for Telegram messages<br />"russian" - please use [MinerKeeperRuBot](https://t.me/MinerKeeperRuBot) for Telegram messages
+sendSummaryNotificationEveryHours | The amount of hours to send a summary report about your rig (e.g. 24 - send a report once a day)<br />If it equals to 0 (zero) - no report will be sent
 telegram | Configuration options for Telegram notifications 
 email | Configuration options for email notifications
 
