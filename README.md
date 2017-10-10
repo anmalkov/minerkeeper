@@ -10,6 +10,16 @@ Please read the [documentation](https://github.com/anmalkov/minerkeeper/blob/mas
 
 [[русская версия]](https://github.com/anmalkov/minerkeeper/blob/master/README_ru.md)
 
+## Main features
+
+* Restart a miner in case of a crash or if it stopped mining due to any internal errors
+* Automatically restart a miner every X hours
+* Adjustable time interval for monitoring of a miner
+* Configurable delay before the restart of a miner, to allow the GPUs to be correctly restarted
+* Sending a summary report of your farm every X hours
+* Sending all of the notifications to the e-mail address and/or to Telegram Messenger
+* Full Russification of the interface and for all of the notifications
+
 ## Version history
 
 v1.0.6
