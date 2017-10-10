@@ -11,7 +11,7 @@ Please read the [documentation](https://github.com/anmalkov/minerkeeper/blob/mas
 ### Version history
 
 v1.0.6
-* Send a notification with summary report every X hours (all data about GPUs inside)
+* Send a notification with summary report about your rig every X hours (including all data about GPUs)
 * Improved notifications
 
 v1.0.5
