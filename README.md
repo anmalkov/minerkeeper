@@ -54,3 +54,4 @@ v1.0.1
 
 If you want to support the project you can use the next addresses for donation:
 * ZEC t1PtBcUsaE1do2s97Atp89QCJAWbjfCKxym
+* ETH 0x65FEB65A56E10D3a1a87C5D4e1ad345534489842
