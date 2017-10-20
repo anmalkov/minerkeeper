@@ -22,6 +22,7 @@ Please read the [documentation](https://github.com/anmalkov/minerkeeper/blob/mas
 * Sending a summary report of your farm every X hours
 * Sending all of the notifications to the e-mail address and/or to Telegram Messenger
 * Full Russification of the interface and for all of the notifications
+* Checking and sending a notification if there is a new version of MinerKeeper available
 
 ## Version history
 
@@ -30,6 +31,7 @@ v2.0.0
 * Send a notification and/or restart a miner if the average hashrate is lower than expected during X minutes
 * Send a notification if the temperature on any GPU is higher than expected
 * Add the subscriptions
+* Check and send a notification if there is a new version of MinerKeeper available
 * Bugfix: Total shares amount is zero in summary report
 
 v1.0.6
