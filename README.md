@@ -14,11 +14,11 @@ Please read the [documentation](https://github.com/anmalkov/minerkeeper/blob/mas
 
 * Restart a miner in case of a crash or if it stopped mining due to any internal errors
 * Automatically restart a miner every X hours
-* Receive a notification if your rig is offline
+* Sending a notification if your rig is offline
 * Adjustable time interval for monitoring of a miner
 * Configurable delay before the restart of a miner, to allow the GPUs to be correctly restarted
-* Receive a notification and/or restart a miner if the average hashrate is lower than expected during X minutes
-* Receive a notification if the temperature on any GPU is higher than expected
+* Sending a notification and/or restart a miner if the average hashrate is lower than expected during X minutes
+* Sending a notification if the temperature on any GPU is higher than expected
 * Sending a summary report of your farm every X hours
 * Sending all of the notifications to the e-mail address and/or to Telegram Messenger
 * Full Russification of the interface and for all of the notifications
@@ -26,9 +26,9 @@ Please read the [documentation](https://github.com/anmalkov/minerkeeper/blob/mas
 ## Version history
 
 v2.0.0
-* Receive a notification if your rig is offline
-* Receive a notification and/or restart a miner if the average hashrate is lower than expected during X minutes
-* Receive a notification if the temperature is higher than expected on any GPU
+* Send a notification if your rig is offline
+* Send a notification and/or restart a miner if the average hashrate is lower than expected during X minutes
+* Send a notification if the temperature on any GPU is higher than expected
 * Add the subscriptions
 * Bugfix: Total shares amount is zero in summary report
 
