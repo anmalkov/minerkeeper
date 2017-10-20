@@ -22,8 +22,9 @@ You can find all of the configuration options inside the *config.json* file.
 
 Option | Description
 -------|------------
+user | Configuration options for the user of MinerKeeper
 rigName | The name of your rig.<br/>This name will be used as a unique identifier of your rig and it will be added to the notifications to identify to what rig a notification belongs
-miners | The array of the miner's options
+miners | The array of the miner's configuration options
 monitorMinerIntervalInSeconds | The interval in seconds that MinerKeeper uses to check the miner health<br/>You can use any interval, but it makes no sense to use an interval that is below the refresh interval of the selected miner (e.g. 30 seconds for Ewbf miner)
 restartMinerEachHours | The amount of hours to automatically restart a miner (e.g. 24 - restart miner once a day)<br />If it equals to 0 (zero) - no automatic restart will be applied
 delayBetweenStopAndStartInSeconds | The delay in seconds that MinerKeeper will use for restart a miner to allow cards to reset
@@ -31,6 +32,13 @@ language | The language for MinerKeeper and for all notifications<br />Supported
 sendSummaryNotificationEveryHours | The amount of hours to send a summary report about your rig (e.g. 24 - send a report once a day)<br />If it equals to 0 (zero) - no report will be sent
 telegram | Configuration options for Telegram notifications 
 email | Configuration options for email notifications
+
+## User section options
+
+Option | Description
+-------|------------
+email | Your private email address<br />If you want to use only the functionalyty within the Free subscription, please left it blank
+key | Your access key for MinerKeeper (if you don't have the key, please look at *Obtain your access key* section below)<br />If you want to use only the functionalyty within the Free subscription, please left it blank
 
 ## Miner section options
 
