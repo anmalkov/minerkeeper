@@ -4,7 +4,7 @@
 MinerKeeper это консольное приложение, которое постоянно следит за вашим майнером и перезапускает его в случае, если он завис, закрылся или остановил майнинг (добычу) из-за каких-либо внутренних ошибок.
 MinerKeeper, если хотите, также может сообщать вам о перезапуске майнера и генерировать суммарный отчет о работе вашей фермы и отправлять нотификации на ваш адрес электронной почты или на ваш Telegram Messenger.
 
-Последняя версия: v1.0.6 - [загрузить](https://github.com/anmalkov/minerkeeper/releases/download/v1.0.6/MinerKeeper.1.0.6.zip).
+Последняя версия: v2.0.0 - [загрузить](https://github.com/anmalkov/minerkeeper/releases/download/v2.0.0/MinerKeeper.2.0.0.zip).
 
 Пожалуйста прочтите [документацию](https://github.com/anmalkov/minerkeeper/blob/master/help.md) после загрузки.
 
