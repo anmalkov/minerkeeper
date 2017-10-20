@@ -78,6 +78,29 @@ password | The password to access the SMTP server
 fromEmalAddress | The email address that MinerKeeper will use to send the email messages from
 toEmalAddress | The email address that MinerKeeper will use to send the email messages to
 
+# Obtain your access key
+
+You should have an access key only if you want to use the features from Medium or Full subscriptions.
+If you are going to use only the features within the Free subscription, then the access key is not needed.
+
+### Getting the access key for the first time
+
+If you run MinerKeeper for the first time and you don't have an access key, please follow the next steps:
+* Enter your private email address into '*user*' -> '*email*' in config.json file
+* The key should be empty in '*user*' -> '*key*' in config.json file
+* Run MinerKeeper.exe
+* It will prompt: '*If you use MinerKeeper for the first time, please, press 'Y' and the new user key will be generated, or press any other button to exit*'
+* Press '*Y*' on the keyboard
+* The new access key will be generated for you and automatically added to the config.json file
+
+**Please use the same email address and access key on all od your rigs.**
+
+### Restore the access key
+
+If you lost your access key you have two options to restore it.
+* Use command '*/getkey*' (just type it) for the **MinerKeeperBot** to get your access key value
+* Send email from your private email address to [minerkeeper@outlook.com](mailto:minerkeeper@outlook.com)
+
 # Use Telegram for notifications
 
 * Install [Telegram Messenger](https://telegram.org/) on your smart device or laptop
