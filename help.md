@@ -99,7 +99,7 @@ If you run MinerKeeper for the first time and you don't have an access key, plea
 
 If you lost your access key you have two options to restore it.
 * Use command '*/getkey*' (just type it) for the **MinerKeeperBot** to get your access key value
-* Send the request email from your private email address to [minerkeeper@outlook.com](mailto:minerkeeper@outlook.com)
+* Send the request email from your private email address to minerkeeper@outlook.com
 
 # Use Telegram for notifications
 
