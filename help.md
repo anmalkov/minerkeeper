@@ -95,7 +95,7 @@ If you run MinerKeeper for the first time and you don't have an access key, plea
 
 **Please use the same email address and access key on the all of your rigs.**
 
-### Restore the access key
+### Restore the access key value
 
 If you lost your access key you have two options to restore it.
 * Use command '*/getkey*' (just type it) for the **MinerKeeperBot** to get your access key value
