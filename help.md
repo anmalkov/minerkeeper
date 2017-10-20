@@ -37,8 +37,8 @@ email | Configuration options for email notifications
 
 Option | Description
 -------|------------
-email | Your private email address<br />If you want to use only the functionalyty within the Free subscription, please left it blank
-key | Your access key for MinerKeeper (if you don't have the key, please look at *Obtain your access key* section below)<br />If you want to use only the functionalyty within the Free subscription, please left it blank
+email | Your private email address<br />If you want to use the functionality within the Free subscription only, please left it blank
+key | Your access key for MinerKeeper (if you don't have the key, please look at *Obtain your access key* section below)<br />If you want to use the functionality within the Free subscription only, please left it blank
 
 ## Miner section options
 
