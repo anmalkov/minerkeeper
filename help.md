@@ -23,23 +23,33 @@ You can find all of the configuration options inside the *config.json* file.
 Option | Description
 -------|------------
 rigName | The name of your rig.<br/>This name will be used as a unique identifier of your rig and it will be added to the notifications to identify to what rig a notification belongs
-miner | The name of the miner that you want to monitor<br />Possible values:<br/>"ewbf" - to monitor Ewbf ZCash (ZEC) cuda miner
-pathToMiner | The path to miner's \*.bat file.<br />For example: "D:\\\Coins\\\Ewbf\\\start.bat"
+miners | The array of the miner's options
 monitorMinerIntervalInSeconds | The interval in seconds that MinerKeeper uses to check the miner health<br/>You can use any interval, but it makes no sense to use an interval that is below the refresh interval of the selected miner (e.g. 30 seconds for Ewbf miner)
 restartMinerEachHours | The amount of hours to automatically restart a miner (e.g. 24 - restart miner once a day)<br />If it equals to 0 (zero) - no automatic restart will be applied
 delayBetweenStopAndStartInSeconds | The delay in seconds that MinerKeeper will use for restart a miner to allow cards to reset
-apiUrl | The ULR to miner API host, if blank then MinerKeeper will use the default URL address for selected miner (e.g. '127.0.0.1:42000' for Ewbf ZCash (ZEC) cuda miner)
 language | The language for MinerKeeper and for all notifications<br />Supported languages:<br />"english" - please use [MinerKeeperBot](https://t.me/MinerKeeperBot) for Telegram messages<br />"russian" - please use [MinerKeeperRuBot](https://t.me/MinerKeeperRuBot) for Telegram messages
 sendSummaryNotificationEveryHours | The amount of hours to send a summary report about your rig (e.g. 24 - send a report once a day)<br />If it equals to 0 (zero) - no report will be sent
 telegram | Configuration options for Telegram notifications 
 email | Configuration options for email notifications
+
+## Miner section options
+
+Option | Description
+-------|------------
+miner | The name of the miner that you want to monitor<br />Possible values:<br/>"ewbf" - to monitor Ewbf ZCash (ZEC) cuda miner
+pathToMiner | The path to miner's \*.bat file.<br />For example: "D:\\\Coins\\\Ewbf\\\start.bat"
+apiUrl | The ULR to miner API host, if blank then MinerKeeper will use the default URL address for selected miner (e.g. '127.0.0.1:42000' for Ewbf ZCash (ZEC) cuda miner)
+durationOfDataCollectionForAlertsInMinutes | The duration that will be used to collect the data of the miner for getting the average values for alerts
+minimumTotalHashrateForAlert | If the average hashrate will be lower than this value the notification will be sent<br />If it equals to 0 (zero) - no check for the hashrate will be performed
+restartMinerOnMinimumTotalHashrate | If equals to true the miner will be restarted if the average hashrate will be lower than  _minimumTotalHashrateForAlert_<br />Possible values: _true_ or _false_
+maximumGpuTemperatureForAlert | If the temperature on any GPU will be higher than this value the notification will be sent<br />If it equals to 0 (zero) - no check for the temperature will be performed
 
 ## Telegram section options
 
 Option | Description
 -------|------------
 sendNotifications | If equals "true" the MinerKeeper will send the notifications to Telegram 
-chatId | Chat ID that will be used for telegram messages (see *Use Telegram for notifications* sectio below)
+chatId | Chat ID that will be used for telegram messages (see *Use Telegram for notifications* section below)
 
 ## Email section options
 
