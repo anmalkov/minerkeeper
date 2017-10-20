@@ -93,13 +93,13 @@ If you run MinerKeeper for the first time and you don't have an access key, plea
 * Press '*Y*' on the keyboard
 * The new access key will be generated for you and automatically added to the config.json file
 
-**Please use the same email address and access key on all od your rigs.**
+**Please use the same email address and access key on the all of your rigs.**
 
 ### Restore the access key
 
 If you lost your access key you have two options to restore it.
 * Use command '*/getkey*' (just type it) for the **MinerKeeperBot** to get your access key value
-* Send email from your private email address to [minerkeeper@outlook.com](mailto:minerkeeper@outlook.com)
+* Send the request email from your private email address to [minerkeeper@outlook.com](mailto:minerkeeper@outlook.com)
 
 # Use Telegram for notifications
 
