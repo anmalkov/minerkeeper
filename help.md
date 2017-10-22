@@ -78,6 +78,20 @@ password | The password to access the SMTP server
 fromEmalAddress | The email address that MinerKeeper will use to send the email messages from
 toEmalAddress | The email address that MinerKeeper will use to send the email messages to
 
+# Subscriptions
+
+There are three subscriptions for MinerKeeper - Free, Medium and Full.
+The Free subscription is a default subscritpion and is completely free for use.
+The Medium and Full subscription should be activated by a request using:
+* an email message to minerkeeper@outlook.com
+* a telegram message to [@anmalkov](https://t.me/anmalkov)
+
+Features | Free | Medium | Full
+---------|------|--------|-----
+All of the local features | V | V | V
+Notification that a rig is offline |  | V | V
+Remote management of a rig |  | V | V
+
 # Obtain your access key
 
 You should have an access key only if you want to use the features from Medium or Full subscriptions.
