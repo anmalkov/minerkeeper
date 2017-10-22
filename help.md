@@ -80,8 +80,8 @@ toEmalAddress | The email address that MinerKeeper will use to send the email me
 
 # Subscriptions
 
-There are three subscriptions for MinerKeeper - Free, Medium and Full.
-The Free subscription is a default subscritpion and is completely free for use.
+There are three subscriptions for MinerKeeper - Free, Medium and Full.<br />
+The Free subscription is a default subscritpion and is completely free for use.<br />
 The Medium and Full subscription should be activated by a request using:
 * an email message to minerkeeper@outlook.com
 * a telegram message to [@anmalkov](https://t.me/anmalkov)
