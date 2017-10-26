@@ -60,6 +60,8 @@ v1.0.1
 ## Ссылки на поддерживаемые майнеры
 
 * Ewbf ZCash (ZEC) cuda miner v0.3.4b - [информация](https://github.com/nanopool/ewbf-miner) | [загрузка](https://github.com/nanopool/ewbf-miner/releases/download/v0.3.4b/Zec.miner.0.3.4b.zip)
+* Claymore's Dual Ethereum+Decred AMD+NVIDIA GPU Miner v10.0 - [информация](https://github.com/nanopool/Claymore-Dual-Miner) | [загрузка](https://github.com/nanopool/Claymore-Dual-Miner/releases/download/v10.0/Claymore.s.Dual.Ethereum.Decred_Siacoin_Lbry_Pascal.AMD.NVIDIA.GPU.Miner.v10.0.zip)
+
 
 
 ## Поддержите проект
