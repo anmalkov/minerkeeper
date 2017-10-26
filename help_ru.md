@@ -16,17 +16,17 @@ Microsoft .NET Framework 4.6.1 должен быть установлен на �
 
 # Конфигурация
 
-You can find all of the configuration options inside the *config.json* file.
+Вы найдете все параметры конфигурации внутри файла *config.json*.
 
-## Root section options
+## Параметры корневой секции
 
-Option | Description
+Опция | Описание
 -------|------------
-user | Configuration options for the user of MinerKeeper
-rigName | The name of your rig.<br/>This name will be used as a unique identifier of your rig and it will be added to the notifications to identify to what rig a notification belongs
-miners | The array of the miner's configuration options
-monitorMinerIntervalInSeconds | The interval in seconds that MinerKeeper uses to check the miner health<br/>You can use any interval, but it makes no sense to use an interval that is below the refresh interval of the selected miner (e.g. 30 seconds for Ewbf miner)
-restartMinerEachHours | The amount of hours to automatically restart a miner (e.g. 24 - restart miner once a day)<br />If it equals to 0 (zero) - no automatic restart will be applied
+user | Параметры конфигурации пользователя MinerKeeper (смотрите ниже)
+rigName | Имя вашей фермы.<br/>Это имя будет использоваться как уникальный идентификатор вашей фермы, и оно будет добавлено ко всем  уведомлениям, чтобы определить, к какой ферме относится это уведомление
+miners | Массив параметров конфигурации для майнера (смотрите ниже)
+monitorMinerIntervalInSeconds | Интервал в секундах, который используется MinerKeeper для проверки майнера
+restartMinerEachHours | Количество часов, через которое майнер будет автоматически перезапущен (например, 24 - перезапускать майнер один раз в день)<br />Если значение равно 0 (ноль) - майнер не будет автоматически перезапускаться
 delayBetweenStopAndStartInSeconds | The delay in seconds that MinerKeeper will use for restart a miner to allow cards to reset
 language | The language for MinerKeeper and for all notifications<br />Supported languages:<br />"english" - please use [MinerKeeperBot](https://t.me/MinerKeeperBot) for Telegram messages<br />"russian" - please use [MinerKeeperRuBot](https://t.me/MinerKeeperRuBot) for Telegram messages
 sendSummaryNotificationEveryHours | The amount of hours to send a summary report about your rig (e.g. 24 - send a report once a day)<br />If it equals to 0 (zero) - no report will be sent
@@ -124,8 +124,8 @@ If you lost your access key you have two options to restore it.
 * Change the value of '*telegram*' -> '*sendNotifications*' in config.json file to *true*
 * Run MinerKeeper.exe - you should receive a notification that MinerKeeper has been started 
 
-### Support the project
+## Поддержите проект
 
-If you want to support the project you can use the next addresses for donation:
+Если вы хотите поддержать проект, используйте пожалуйста следующие адреса для пожертвований:
 * ZEC t1PtBcUsaE1do2s97Atp89QCJAWbjfCKxym
 * ETH 0x65FEB65A56E10D3a1a87C5D4e1ad345534489842
