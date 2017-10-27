@@ -126,7 +126,7 @@ If you lost your access key you have two options to restore it.
 * Change the value of '*telegram*' -> '*sendNotifications*' in config.json file to *true*
 * Run MinerKeeper.exe - you should receive a notification that MinerKeeper has been started 
 
-## Поддержите проект
+# Поддержите проект
 
 Если вы хотите поддержать проект, используйте пожалуйста следующие адреса для пожертвований:
 * ZEC t1PtBcUsaE1do2s97Atp89QCJAWbjfCKxym
