@@ -32,7 +32,7 @@ v2.1.0
 * Add monitoring for Claymore's Dual Ethereum+Decred AMD+NVIDIA GPU Miner
 * Add the ability to automatically restart a PC every X hours
 * Restart a miner if the total amount of accepted shares doesn't change during X minutes
-* Minimize the output of summary report to see more on the lock screen of your cell phone
+* The summary report has become more compact, to see more information on the lock screen of your cell phone
 * Improve the console output
 * Bugfix: Total average efficiency is wrong in summary report
 * Bugfix: MinerKeeper crashes on total shares calculation after restart of a miner
