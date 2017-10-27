@@ -15,6 +15,7 @@ Please read the [documentation](https://github.com/anmalkov/minerkeeper/blob/mas
 * Full support of Ewbf ZCash (ZEC) cuda miner and Claymore's Dual Ethereum+Decred AMD+NVIDIA GPU Miner
 * Restart a miner in case of a crash or if it stopped mining due to any internal errors
 * Automatically restart a miner every X hours
+* Automatically restart a PC every X hours
 * Sending a notification if your rig is offline
 * Adjustable time interval for monitoring of a miner
 * Configurable delay before the restart of a miner, to allow the GPUs to be correctly restarted
