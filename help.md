@@ -7,7 +7,7 @@ The miner should be run with API enabled option:
 
 # Installation
 
-* Download the [latest version](https://github.com/anmalkov/minerkeeper/releases/download/v2.0.0/MinerKeeper.2.0.0.zip) of the MinerKeeper on GitHub
+* Download the [latest version](https://github.com/anmalkov/minerkeeper/releases/download/v2.1.0/MinerKeeper.2.1.0.zip) of the MinerKeeper on GitHub
 * Extract the content of the archive to any folder on your drive (e.g. C:\MinerKeeper)
 * Open that folder in the windows explorer
 * Open config.json file for editing in your favorite text editor (or Notepad if you want)
@@ -27,6 +27,7 @@ rigName | The name of your rig.<br/>This name will be used as a unique identifie
 miners | The array of the miner's configuration options
 monitorMinerIntervalInSeconds | The interval in seconds that MinerKeeper uses to check the miner health<br/>You can use any interval, but it makes no sense to use an interval that is below the refresh interval of the selected miner (e.g. 30 seconds for Ewbf miner)
 restartMinerEachHours | The amount of hours to automatically restart a miner (e.g. 24 - restart miner once a day)<br />If it equals to 0 (zero) - no automatic restart will be applied
+restartPcEveryHours | The amount of hours to automatically restart a PC (e.g. 720 - restart a PC once a month)<br />If it equals to 0 (zero) - no automatic restart will be applied
 delayBetweenStopAndStartInSeconds | The delay in seconds that MinerKeeper will use for restart a miner to allow cards to reset
 language | The language for MinerKeeper and for all notifications<br />Supported languages:<br />"english" - please use [MinerKeeperBot](https://t.me/MinerKeeperBot) for Telegram messages<br />"russian" - please use [MinerKeeperRuBot](https://t.me/MinerKeeperRuBot) for Telegram messages
 sendSummaryNotificationEveryHours | The amount of hours to send a summary report about your rig (e.g. 24 - send a report once a day)<br />If it equals to 0 (zero) - no report will be sent
@@ -51,6 +52,7 @@ durationOfDataCollectionForAlertsInMinutes | The duration that will be used to c
 minimumTotalHashrateForAlert | If the average hashrate will be lower than this value the notification will be sent<br />If it equals to 0 (zero) - no check for the hashrate will be performed
 restartMinerOnMinimumTotalHashrate | If equals to true the miner will be restarted if the average hashrate will be lower than  _minimumTotalHashrateForAlert_<br />Possible values: _true_ or _false_
 maximumGpuTemperatureForAlert | If the temperature on any GPU will be higher than this value the notification will be sent<br />If it equals to 0 (zero) - no check for the temperature will be performed
+totalAcceptedSharesChangeIntervalMinutes | The duration that will be used to monitor if the total amount of accepted shares changed or not. If it is not changed during that interval, a miner will be restarted
 
 ## Telegram section options
 
