@@ -27,6 +27,7 @@ rigName | Имя вашей фермы.<br/>Это имя будет испол�
 miners | Массив параметров конфигурации для майнера (смотрите ниже)
 monitorMinerIntervalInSeconds | Интервал в секундах, который используется MinerKeeper для проверки майнера
 restartMinerEachHours | Количество часов, через которое майнер будет автоматически перезапущен (например, 24 - перезапускать майнер один раз в день)<br />Если значение равно 0 (ноль) - майнер не будет автоматически перезапускаться
+restartPcEveryHours | Количество часов, через которое компьютер будет автоматически перезагружен (например, 720 - перезагружать компьютер один раз в месяц)<br />Если значение равно 0 (ноль) - компьютер не будет автоматически перезагружаться
 delayBetweenStopAndStartInSeconds | The delay in seconds that MinerKeeper will use for restart a miner to allow cards to reset
 language | The language for MinerKeeper and for all notifications<br />Supported languages:<br />"english" - please use [MinerKeeperBot](https://t.me/MinerKeeperBot) for Telegram messages<br />"russian" - please use [MinerKeeperRuBot](https://t.me/MinerKeeperRuBot) for Telegram messages
 sendSummaryNotificationEveryHours | The amount of hours to send a summary report about your rig (e.g. 24 - send a report once a day)<br />If it equals to 0 (zero) - no report will be sent
@@ -51,6 +52,7 @@ durationOfDataCollectionForAlertsInMinutes | The duration that will be used to c
 minimumTotalHashrateForAlert | If the average hashrate will be lower than this value the notification will be sent<br />If it equals to 0 (zero) - no check for the hashrate will be performed
 restartMinerOnMinimumTotalHashrate | If equals to true the miner will be restarted if the average hashrate will be lower than  _minimumTotalHashrateForAlert_<br />Possible values: _true_ or _false_
 maximumGpuTemperatureForAlert | If the temperature on any GPU will be higher than this value the notification will be sent<br />If it equals to 0 (zero) - no check for the temperature will be performed
+totalAcceptedSharesChangeIntervalMinutes | The duration that will be used to monitor if the total amount of accepted shares changed or not. If it is not changed during that interval, a miner will be restarted
 
 ## Telegram section options
 
