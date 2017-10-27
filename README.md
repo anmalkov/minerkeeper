@@ -12,6 +12,7 @@ Please read the [documentation](https://github.com/anmalkov/minerkeeper/blob/mas
 
 ## Main features
 
+* Full support of Ewbf ZCash (ZEC) cuda miner and Claymore's Dual Ethereum+Decred AMD+NVIDIA GPU Miner
 * Restart a miner in case of a crash or if it stopped mining due to any internal errors
 * Automatically restart a miner every X hours
 * Sending a notification if your rig is offline
@@ -27,9 +28,10 @@ Please read the [documentation](https://github.com/anmalkov/minerkeeper/blob/mas
 ## Version history
 
 v2.1.0
-* Added monitoring for Claymore's Dual Ethereum+Decred AMD+NVIDIA GPU Miner
-* Added the ability to automatically restart a PC every X hours
-* Improved the console output
+* Add monitoring for Claymore's Dual Ethereum+Decred AMD+NVIDIA GPU Miner
+* Add the ability to automatically restart a PC every X hours
+* Restart a miner if the total amount of accepted shares doesn't change during X minutes
+* Improve the console output
 * Bugfix: Total average efficiency is wrong in summary report
 * Bugfix: MinerKeeper crashes on total shares calculation after restart of a miner
 
