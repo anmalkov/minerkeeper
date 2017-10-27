@@ -6,7 +6,7 @@ MinerKeeper, если хотите, также может сообщать ва�
 
 Последняя версия: **v2.1.0** - [загрузить](https://github.com/anmalkov/minerkeeper/releases/download/v2.1.0/MinerKeeper.2.1.0.zip).
 
-Пожалуйста прочтите [документацию](https://github.com/anmalkov/minerkeeper/blob/master/help.md) после загрузки.
+Пожалуйста прочтите [документацию](https://github.com/anmalkov/minerkeeper/blob/master/help_ru.md) после загрузки.
 
 
 ## Основные функции
