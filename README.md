@@ -4,7 +4,7 @@ MinerKeeper keeps your miner running and notifies you
 It is a console application that constantly monitors your miner and restarts the miner in case he crashed or stopped mining due to any internal errors.
 MinerKeeper, if you want, can also inform you about the restart of the miner, generate the summary report about your rig and send the notifications to your e-mail address or to your Telegram Messenger.
 
-The latest version: v2.0.0 - [download](https://github.com/anmalkov/minerkeeper/releases/download/v2.0.0/MinerKeeper.2.0.0.zip).
+The latest version: **v2.1.0** - [download](https://github.com/anmalkov/minerkeeper/releases/download/v2.1.0/MinerKeeper.2.1.0.zip).
 
 Please read the [documentation](https://github.com/anmalkov/minerkeeper/blob/master/help.md) after the download.
 
@@ -25,6 +25,13 @@ Please read the [documentation](https://github.com/anmalkov/minerkeeper/blob/mas
 * Checking and sending a notification if there is a new version of MinerKeeper available
 
 ## Version history
+
+v2.1.0
+* Added monitoring for Claymore's Dual Ethereum+Decred AMD+NVIDIA GPU Miner
+* Added the ability to automatically restart a PC every X hours
+* Improved the console output
+* Bugfix: Total average efficiency is wrong in summary report
+* Bugfix: MinerKeeper crashes on total shares calculation after restart of a miner
 
 v2.0.0
 * Send a notification if your rig is offline
