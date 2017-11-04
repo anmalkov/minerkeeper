@@ -28,11 +28,11 @@ miners | Массив параметров конфигурации для ма�
 monitorMinerIntervalInSeconds | Интервал в секундах, который используется MinerKeeper для проверки майнера
 restartMinerEachHours | Количество часов, через которое майнер будет автоматически перезапущен (например, 24 - перезапускать майнер один раз в день)<br />Если значение равно 0 (ноль) - майнер не будет автоматически перезапускаться
 restartPcEveryHours | Количество часов, через которое компьютер будет автоматически перезагружен (например, 720 - перезагружать компьютер один раз в месяц)<br />Если значение равно 0 (ноль) - компьютер не будет автоматически перезагружаться
-delayBetweenStopAndStartInSeconds | The delay in seconds that MinerKeeper will use for restart a miner to allow cards to reset
-language | The language for MinerKeeper and for all notifications<br />Supported languages:<br />"english" - please use [MinerKeeperBot](https://t.me/MinerKeeperBot) for Telegram messages<br />"russian" - please use [MinerKeeperRuBot](https://t.me/MinerKeeperRuBot) for Telegram messages
-sendSummaryNotificationEveryHours | The amount of hours to send a summary report about your rig (e.g. 24 - send a report once a day)<br />If it equals to 0 (zero) - no report will be sent
-telegram | Configuration options for Telegram notifications 
-email | Configuration options for email notifications
+delayBetweenStopAndStartInSeconds | Задержка в секундах перед рестартом майнера, что бы дать возможность видеокартам корректно рестартовать
+language | Язык интерфейса MinerKeeper и всех нотификаций<br />Поддерживаемые языки:<br />"english" - английский, используйте [MinerKeeperBot](https://t.me/MinerKeeperBot) для Telegram сообщений<br />"russian" - русский, используйте [MinerKeeperRuBot](https://t.me/MinerKeeperRuBot) для Telegram сообщений
+sendSummaryNotificationEveryHours | Количество часов, за которое будет сформирован и отправлен суммарный отчет о вашей ферме (например, 24 - отправлять отчет раз в день)<br />Если значение равно 0 (ноль) - суммарный репорт не будет отправляться
+telegram | Параметры конфигурации Telegram нотификаций 
+email | Параметры конфигурации нотификаций по электронной почте
 
 ## User section options
 
@@ -117,14 +117,14 @@ If you lost your access key you have two options to restore it.
 * Use command '*/getkey*' (just type it) for the **MinerKeeperBot** to get your access key value
 * Send the request email from your private email address to minerkeeper@outlook.com
 
-# Use Telegram for notifications
+# Использование Telegram для получения нотификаций
 
-* Install [Telegram Messenger](https://telegram.org/) on your smart device or laptop
-* Add the [MinerKeeperBot](https://t.me/MinerKeeperBot) bot to receive the notifications in English or the [MinerKeeperRuBot](https://t.me/MinerKeeperRuBot) bot to receive the notifications in Russian, to your Telegram (just start chat). This bot will send you the notifications from MinerKeeper, that installed on your rig, and it will send your commands to MinerKeeper
-* Use command '*/start*' (just type it) for the **MinerKeeperBot** to get your unique chat ID
-* Put this number in '*telegram*' -> '*chatId*' in config.json file
-* Change the value of '*telegram*' -> '*sendNotifications*' in config.json file to *true*
-* Run MinerKeeper.exe - you should receive a notification that MinerKeeper has been started 
+* Установите [Telegram Messenger](https://telegram.org/) на ваш смарт девайс или ноутбук
+* Добавьте [MinerKeeperBot](https://t.me/MinerKeeperBot) бот, если вы хотите получать нотификации на английском, или [MinerKeeperRuBot](https://t.me/MinerKeeperRuBot), если вы хотите получать нотификации на русском языке, в ваш Telegram (просто начните чат). Этот чат-бот будет отправлять вам нотификации от MinerKeeper, который установлен на вашей ферме, и также будет отправлять ваши команды на MinerKeeper
+* Используйте комманду '/start' (просто введите данный текст и отправьте сообщение боту) для MinerKeeperBot для того, что бы получить ваш уникальный чат ID
+* Введите этот номер в поле 'telegram' -> 'chatId' в файле config.json
+* Измените значение поля 'telegram' -> 'sendNotifications' в файле config.json на true
+* Запустите MinerKeeper.exe - вы должны получить нотификацию о старте MinerKeeper на ваш Telegram
 
 # Поддержите проект
 
