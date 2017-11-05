@@ -7,7 +7,7 @@ The miner should be run with API enabled option:
 
 # Installation
 
-* Download the [latest version](https://github.com/anmalkov/minerkeeper/releases/download/v2.1.0/MinerKeeper.2.1.0.zip) of the MinerKeeper on GitHub
+* Download the [latest version](https://github.com/anmalkov/minerkeeper/releases/download/v2.2.0/MinerKeeper.2.2.0.zip) of the MinerKeeper on GitHub
 * Extract the content of the archive to any folder on your drive (e.g. C:\MinerKeeper)
 * Open that folder in the windows explorer
 * Open config.json file for editing in your favorite text editor (or Notepad if you want)
@@ -22,17 +22,19 @@ You can find all of the configuration options inside the *config.json* file.
 
 Option | Description
 -------|------------
-user | Configuration options for the user of MinerKeeper
+user | Configuration options for the user of MinerKeeper (see below)
 rigName | The name of your rig.<br/>This name will be used as a unique identifier of your rig and it will be added to the notifications to identify to what rig a notification belongs
-miners | The array of the miner's configuration options
+miners | The array of the miner's configuration options (see below)
+currencyForGettingRates | The currency that will be used to take the cryptocurrencies rates (e.g. USD, EUR, etc.)
+currencyRules | The array of the configuration options for the rules of the cryptocurrencies rates (see below)
 monitorMinerIntervalInSeconds | The interval in seconds that MinerKeeper uses to check the miner health<br/>You can use any interval, but it makes no sense to use an interval that is below the refresh interval of the selected miner (e.g. 30 seconds for Ewbf miner)
 restartMinerEachHours | The amount of hours to automatically restart a miner (e.g. 24 - restart miner once a day)<br />If it equals to 0 (zero) - no automatic restart will be applied
 restartPcEveryHours | The amount of hours to automatically restart a PC (e.g. 720 - restart a PC once a month)<br />If it equals to 0 (zero) - no automatic restart will be applied
 delayBetweenStopAndStartInSeconds | The delay in seconds that MinerKeeper will use for restart a miner to allow cards to reset
 language | The language for MinerKeeper and for all notifications<br />Supported languages:<br />"english" - please use [MinerKeeperBot](https://t.me/MinerKeeperBot) for Telegram messages<br />"russian" - please use [MinerKeeperRuBot](https://t.me/MinerKeeperRuBot) for Telegram messages
 sendSummaryNotificationEveryHours | The amount of hours to send a summary report about your rig (e.g. 24 - send a report once a day)<br />If it equals to 0 (zero) - no report will be sent
-telegram | Configuration options for Telegram notifications 
-email | Configuration options for email notifications
+telegram | Configuration options for Telegram notifications (see below)
+email | Configuration options for email notifications (see below)
 
 ## User section options
 
@@ -53,6 +55,17 @@ minimumTotalHashrateForAlert | If the average hashrate will be lower than this v
 restartMinerOnMinimumTotalHashrate | If equals to true the miner will be restarted if the average hashrate will be lower than  _minimumTotalHashrateForAlert_<br />Possible values: _true_ or _false_
 maximumGpuTemperatureForAlert | If the temperature on any GPU will be higher than this value the notification will be sent<br />If it equals to 0 (zero) - no check for the temperature will be performed
 totalAcceptedSharesChangeIntervalMinutes | The duration that will be used to monitor if the total amount of accepted shares changed or not. If it is not changed during that interval, a miner will be restarted
+
+## Rules for the cryptocurrencies rates section options
+
+You can configure any number of the rules.
+You will receive a notification for each rule in case of your condition will be positive.
+
+Option | Description
+-------|------------
+currency | The name of the cryptocurrency which rate you want to monitor (e.g. ZEC, ZEN, ZCL, ETH, etc.)
+condition | The condition of the rule<br />Possible values:<br />"more" - the notification will be sent if the current cryptocurrency rate will be more than the expected rate value<br />"equals" - the notification will be sent if the current cryptocurrency rate will be equal to the expected rate value<br />"less" - the notification will be sent if the current cryptocurrency rate will be less than the expected rate value
+rate | The expected rate
 
 ## Telegram section options
 
