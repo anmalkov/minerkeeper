@@ -19,7 +19,7 @@ Please read the [documentation](https://github.com/anmalkov/minerkeeper/blob/mas
 * Send a notification if your rig is offline
 * Adjustable time interval for monitoring of a miner
 * Configurable delay before the restart of a miner, to allow the GPUs to be correctly restarted
-* Monitor the cryptocurrencies rates and send a notification based on the specified conditions (if rate is more, equals or less than the expected value)
+* Monitor the cryptocurrencies rates and send a notification based on the specified conditions (if the current rate is more, equals or less than the expected value)
 * Send a notification and/or restart a miner if the average hashrate is lower than expected during X minutes
 * Send a notification if the temperature on any GPU is higher than expected
 * Send a summary report of your farm every X hours
@@ -31,7 +31,7 @@ Please read the [documentation](https://github.com/anmalkov/minerkeeper/blob/mas
 
 v2.2.0
 * Wait and do not restart a miner immediately, in case of errors, if a miner is not initialized yet just after its start
-* Monitor the cryptocurrencies rates and send a notification based on the specified conditions (if rate is more, equals or less than the expected value)
+* Monitor the cryptocurrencies rates and send a notification based on the specified conditions (if the current rate is more, equals or less than the expected value)
 * Send a summary report at 00 minutes of the specified hour, or every day at 00:00 for the daily summary report 
 * Show the date and time when a rig was the last time online, in the notification that a rig is offline 
 * The summary report has become more compact, to see even more information on the lock screen of your cell phone 
