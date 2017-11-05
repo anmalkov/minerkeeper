@@ -7,7 +7,7 @@ Microsoft .NET Framework 4.6.1 должен быть установлен на �
 
 # Инсталляция
 
-* Загрузите [последнюю версию](https://github.com/anmalkov/minerkeeper/releases/download/v2.1.0/MinerKeeper.2.1.0.zip) MinerKeeper с GitHub
+* Загрузите [последнюю версию](https://github.com/anmalkov/minerkeeper/releases/download/v2.2.0/MinerKeeper.2.2.0.zip) MinerKeeper с GitHub
 * Распакуйте содержимое архива в любую папку на вашем диске (например C:\MinerKeeper)
 * Откройте эту папку в проводнике windows
 * Откройте файл config.json на редактирование в вашем любимом текстовом редакторе (например Notepad)
@@ -25,14 +25,16 @@ Microsoft .NET Framework 4.6.1 должен быть установлен на �
 user | Параметры конфигурации пользователя MinerKeeper (смотрите ниже)
 rigName | Имя вашей фермы.<br/>Это имя будет использоваться как уникальный идентификатор вашей фермы, и оно будет добавлено ко всем  уведомлениям, чтобы определить, к какой ферме относится это уведомление
 miners | Массив параметров конфигурации для майнера (смотрите ниже)
+currencyForGettingRates | Валюта которая будет использоваться для получения текущих курсов для криптовалют (например: USD, EUR, и т.д.)
+currencyRules | Массив параметров конфигурации для правил курсов криптовалют (смотрите ниже)
 monitorMinerIntervalInSeconds | Интервал в секундах, который используется MinerKeeper для проверки майнера
 restartMinerEachHours | Количество часов, через которое майнер будет автоматически перезапущен (например, 24 - перезапускать майнер один раз в день)<br />Если значение равно 0 (ноль) - майнер не будет автоматически перезапускаться
 restartPcEveryHours | Количество часов, через которое компьютер будет автоматически перезагружен (например, 720 - перезагружать компьютер один раз в месяц)<br />Если значение равно 0 (ноль) - компьютер не будет автоматически перезагружаться
 delayBetweenStopAndStartInSeconds | Задержка в секундах перед рестартом майнера, что бы дать возможность видеокартам корректно рестартовать
 language | Язык интерфейса MinerKeeper и всех нотификаций<br />Поддерживаемые языки:<br />"english" - английский, используйте [MinerKeeperBot](https://t.me/MinerKeeperBot) для Telegram сообщений<br />"russian" - русский, используйте [MinerKeeperRuBot](https://t.me/MinerKeeperRuBot) для Telegram сообщений
 sendSummaryNotificationEveryHours | Количество часов, за которое будет сформирован и отправлен суммарный отчет о вашей ферме (например, 24 - отправлять отчет раз в день)<br />Если значение равно 0 (ноль) - суммарный репорт не будет отправляться
-telegram | Параметры конфигурации Telegram нотификаций 
-email | Параметры конфигурации нотификаций по электронной почте
+telegram | Параметры конфигурации Telegram нотификаций (смотрите ниже)
+email | Параметры конфигурации нотификаций по электронной почте (смотрите ниже)
 
 ## User section options
 
@@ -53,6 +55,17 @@ minimumTotalHashrateForAlert | If the average hashrate will be lower than this v
 restartMinerOnMinimumTotalHashrate | If equals to true the miner will be restarted if the average hashrate will be lower than  _minimumTotalHashrateForAlert_<br />Possible values: _true_ or _false_
 maximumGpuTemperatureForAlert | If the temperature on any GPU will be higher than this value the notification will be sent<br />If it equals to 0 (zero) - no check for the temperature will be performed
 totalAcceptedSharesChangeIntervalMinutes | The duration that will be used to monitor if the total amount of accepted shares changed or not. If it is not changed during that interval, a miner will be restarted
+
+## Rules for the cryptocurrencies rates section options
+
+You can configure any number of the rules.
+You will receive a notification for each rule in case of your condition will be positive.
+
+Option | Description
+-------|------------
+currency | The name of the cryptocurrency which rate you want to monitor (e.g. ZEC, ZEN, ZCL, ETH, etc.)
+condition | The condition of the rule<br />Possible values:<br />"more" - the notification will be sent if the current cryptocurrency rate will be more than the expected rate value<br />"equals" - the notification will be sent if the current cryptocurrency rate will be equal to the expected rate value<br />"less" - the notification will be sent if the current cryptocurrency rate will be less than the expected rate value
+rate | The expected rate
 
 ## Telegram section options
 
