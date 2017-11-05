@@ -25,7 +25,7 @@ Option | Description
 user | Configuration options for the user of MinerKeeper (see below)
 rigName | The name of your rig.<br/>This name will be used as a unique identifier of your rig and it will be added to the notifications to identify to what rig a notification belongs
 miners | The array of the miner's configuration options (see below)
-currencyForGettingRates | The currency that will be used to take the cryptocurrencies rates (e.g. USD, EUR, etc.)
+currencyForGettingRates | The currency that will be used to take the current cryptocurrencies rates (e.g. USD, EUR, etc.)
 currencyRules | The array of the configuration options for the rules of the cryptocurrencies rates (see below)
 monitorMinerIntervalInSeconds | The interval in seconds that MinerKeeper uses to check the miner health<br/>You can use any interval, but it makes no sense to use an interval that is below the refresh interval of the selected miner (e.g. 30 seconds for Ewbf miner)
 restartMinerEachHours | The amount of hours to automatically restart a miner (e.g. 24 - restart miner once a day)<br />If it equals to 0 (zero) - no automatic restart will be applied
