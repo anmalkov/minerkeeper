@@ -4,7 +4,7 @@ MinerKeeper keeps your miner running and notifies you
 It is a console application that constantly monitors your miner and restarts the miner in case he crashed or stopped mining due to any internal errors.
 MinerKeeper, if you want, can also inform you about the restart of the miner, generate the summary report about your rig and send the notifications to your e-mail address or to your Telegram Messenger.
 
-The latest version: **v2.1.0** - [download](https://github.com/anmalkov/minerkeeper/releases/download/v2.1.0/MinerKeeper.2.1.0.zip).
+The latest version: **v2.2.0** - [download](https://github.com/anmalkov/minerkeeper/releases/download/v2.2.0/MinerKeeper.2.2.0.zip).
 
 Please read the [documentation](https://github.com/anmalkov/minerkeeper/blob/master/help.md) after the download.
 
@@ -16,17 +16,25 @@ Please read the [documentation](https://github.com/anmalkov/minerkeeper/blob/mas
 * Restart a miner in case of a crash or if it stopped mining due to any internal errors
 * Automatically restart a miner every X hours
 * Automatically restart a PC every X hours
-* Sending a notification if your rig is offline
+* Send a notification if your rig is offline
 * Adjustable time interval for monitoring of a miner
 * Configurable delay before the restart of a miner, to allow the GPUs to be correctly restarted
-* Sending a notification and/or restart a miner if the average hashrate is lower than expected during X minutes
-* Sending a notification if the temperature on any GPU is higher than expected
-* Sending a summary report of your farm every X hours
-* Sending all of the notifications to the e-mail address and/or to Telegram Messenger
+* Monitor the currencies rates and send a notification based on the specified conditions (if rate is more, equals or less than the expected value)
+* Send a notification and/or restart a miner if the average hashrate is lower than expected during X minutes
+* Send a notification if the temperature on any GPU is higher than expected
+* Send a summary report of your farm every X hours
+* Send all of the notifications to the e-mail address and/or to Telegram Messenger
 * Full Russification of the interface and for all of the notifications
-* Checking and sending a notification if there is a new version of MinerKeeper available
+* Check and send a notification if there is a new version of MinerKeeper available
 
 ## Version history
+
+v2.2.0
+* Wait and do not restart a miner immediately, in case of errors, if a miner is not initialized yet just after its start
+* Monitor the currencies rates and send a notification based on the specified conditions (if rate is more, equals or less than the expected value)
+* Send a summary report at 00 minutes of the specified hour, or every day at 00:00 for the daily summary report 
+* Show the date and time when a rig was the last time online, in the notification that a rig is offline 
+* The summary report has become more compact, to see even more information on the lock screen of your cell phone 
 
 v2.1.0
 * Add monitoring for Claymore's Dual Ethereum+Decred AMD+NVIDIA GPU Miner
