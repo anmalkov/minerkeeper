@@ -67,6 +67,38 @@ currency | The name of the cryptocurrency which rate you want to monitor (e.g. Z
 condition | The condition of the rule<br />Possible values:<br />"more" - the notification will be sent if the current cryptocurrency rate will be more than the expected rate value<br />"equals" - the notification will be sent if the current cryptocurrency rate will be equal to the expected rate value<br />"less" - the notification will be sent if the current cryptocurrency rate will be less than the expected rate value
 rate | The expected rate
 
+### Example of rules for the cryptocurrencies rates
+
+Partial content of config.json file:
+`
+  ...
+  "currencyForGettingRates": "USD",
+  "currencyRules": [
+    {
+      "currency": "ZCL",
+      "condition": "more",
+      "rate": 2.13
+    },
+    {
+      "currency": "ZCL",
+      "condition": "less",
+      "rate": 1.6
+    },
+    {
+      "currency": "ZEN",
+      "condition": "more",
+      "rate": 20
+    }
+  ],
+  ...
+`
+
+There are three rules in this example.
+User will receive a notifications in case:
+* the current rate for currency ZCL will be more than 2.13 USD
+* the current rate for currency ZCL will be less than 1.60 USD
+* the current rate for currency ZEN will be more than 20 USD
+
 ## Telegram section options
 
 Option | Description
