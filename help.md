@@ -70,7 +70,7 @@ rate | The expected rate
 ### Example of rules for the cryptocurrencies rates
 
 Partial content of config.json file:
-`
+```json
   ...
   "currencyForGettingRates": "USD",
   "currencyRules": [
@@ -91,7 +91,7 @@ Partial content of config.json file:
     }
   ],
   ...
-`
+```
 
 There are three rules in this example.
 User will receive a notifications in case:
